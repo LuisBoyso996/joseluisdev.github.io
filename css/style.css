@@ -1,0 +1,88 @@
+body {
+      background-color: #121212;
+      color: #e0e0e0;
+    }
+
+    .navbar {
+      background-color: #1f1f1f;
+    }
+
+    .nav-link {
+      color: #e0e0e0 !important;
+    }
+
+    .nav-link:hover {
+      color: #00bcd4 !important;
+    }
+
+    h2 {
+      color: #00bcd4;
+    }
+
+    .card {
+      background-color: #1f1f1f;
+      color: #e0e0e0;
+      border: none;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 20px rgba(0, 188, 212, 0.3);
+    }
+
+    .profile-img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid #00bcd4;
+    }
+
+    .btn-custom {
+      background-color: #00bcd4;
+      color: #121212;
+    }
+
+    .btn-custom:hover {
+      background-color: #0097a7;
+      color: #fff;
+    }
+    .timeline {
+  position: relative;
+  margin-left: 30px;
+  border-left: 3px solid #ffc107;
+  padding-left: 40px;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: -10px;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  background-color: #ffc107;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  box-shadow: 0 0 0 2px #ffc107;
+}
+
+.timeline-content {
+  margin-left: 15px;
+}
+
+.timeline-content h5 {
+  margin-bottom: 5px;
+  color: #ffc107;
+  font-weight: bold;
+}
+
+.timeline-content p {
+  margin-bottom: 0;
+  font-size: 0.95rem;
+}
